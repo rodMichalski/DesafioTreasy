@@ -21,10 +21,9 @@ A ferramenta conta também com uma biblioteca de funções javascripts que permi
 
 Para a instalação necessário ter o [node](https://nodejs.org/en/) instalado.
 
-- [Subir Servidor](#subir-servidor)
-- [Ambiente de desenvolvimento](#ambiente-de-desenvolvimento)
+- [Executar Projeto](#executar-projeto)
 
-### Subir Servidor
+### Executar Projeto
 
 
 ``` bash
