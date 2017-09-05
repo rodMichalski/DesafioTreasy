@@ -18,7 +18,7 @@ A ferramenta conta também com uma biblioteca de funções javascripts que permi
 
 ### Instalação
 
-Para a instalação necessário ter o [node](https://nodejs.org/en/) e o [bower](https://bower.io/) instalado.
+Para a instalação necessário ter o [node](https://nodejs.org/en/), o [bower](https://bower.io/) e o [gulp](https://gulpjs.com/) instalados.
 
 - [Executar Projeto](#executar-projeto)
 
@@ -34,3 +34,4 @@ gulp build
 
 gulp server
 ```
+Servidor será iniciado em http://localhost:9000/
