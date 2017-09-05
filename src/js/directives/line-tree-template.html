@@ -1,0 +1,14 @@
+<div>
+	<div ng-click="setSelected(lineNo, lineNoPai)" ng-class="{'wa-select-line': lineNo === selectedLine}" class="wa-line-tree" data-toggle="tooltip" data-placement="bottom" data-html="true" data-original-title="<table><tr><td>Código: {{lineNo.codigo}}</td></tr><tr><td>Descrição: {{lineNo.descricao}}</td></tr></tr><tr><td>Observação: {{lineNo.observacao}}</td></tr></table>">
+	
+		<span ng-click="setOpened(lineNo)" ng-if="lineNo.tree.length > 0 && !lineNo.opened" class="glyphicon glyphicon-triangle-right wa-span-img" aria-hidden="true"></span>
+		<span ng-click="setOpened(lineNo)" ng-if="lineNo.tree.length > 0 && lineNo.opened" class="glyphicon glyphicon-triangle-bottom wa-span-img" aria-hidden="true"></span>
+		<span ng-if="lineNo.tree.length == 0" class="wa-span-lista"></span>
+		<span>{{lineNo.descricao}}</span>
+	</div>
+	<ul ng-show="lineNo.opened"> 
+		<li ng-repeat="no in lineNo.tree | filter: filterInput">
+	    	<line-tree line-no="no" line-no-pai="lineNo" set-selected="setSelected" selected-line="selectedLine" filter-input="filterInput"></line-tree>
+	    </li>
+	</ul>
+</div>

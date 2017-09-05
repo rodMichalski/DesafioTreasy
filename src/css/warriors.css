@@ -1,0 +1,53 @@
+li {
+    list-style-type: none;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+.wa-line-tree {
+    padding: -10px;
+}
+
+.wa-span-img{
+    padding-right: 6px;
+    padding-left: 10px;
+}
+
+.wa-span-lista{
+    padding-left: 35px;
+
+}
+
+.wa-position-ol{
+    padding-left: 20px;
+}
+
+.wa-select-line{
+	background-color: LightSteelBlue;
+}
+
+.wa-filter {
+	padding-bottom: 5px;
+}
+
+.wa-crud {
+	float: left;
+}
+
+.wa-expandable{
+	float: right;
+}
+
+.wa-cursor{
+	cursor: pointer;
+}
+
+.wa-icon {
+    padding-left: 5px;
+}
+
+.wa-input {
+    border-radius: 0;
+}
